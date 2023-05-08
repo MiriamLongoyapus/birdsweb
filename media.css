@@ -1,0 +1,78 @@
+@media (max-width:768px){
+    .container{
+        background-image: url(BirdLife.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 7%;
+        margin-left: 5%;
+        list-style: none;
+    }
+    #button1{
+        padding: 5px;
+        background-color: rgb(206, 169, 5);
+        border-radius: 25%;
+        color: aliceblue;
+    }
+    #button2{
+        padding: 5px;
+        background-color: rgb(179, 148, 14);
+        border-radius: 10%;
+        color: rgb(222, 228, 223);
+    }
+    .welcome{
+        margin-left: 67%;
+        margin-top: 4%;
+        background-color: rgb(250, 180, 89);
+        text-align: center;
+        
+    }
+    .welcome img{
+        height: 10px;
+        width: 30%;
+        border-radius: 70%;
+    }
+    #PIK{
+        margin-top: 5%;
+        margin-left: 45%;
+    }
+   
+    .pikok{
+        display: flex; 
+        flex-direction: column;
+        gap: 15%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 5%;
+        text-align: center;
+        background-color: rgb(196, 240, 225);
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
+    }
+    .pikok img{
+        height:200px;
+        width: 200px;
+    }
+    .birds{
+        display: flex;
+        flex-direction: column; 
+        gap: 8%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .birds img{
+        height:300px;
+        width: 50%;
+    }
+    .peak{
+        height: 200px;
+        width: 200px;
+    }
+}
